@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#options {
+  display: flex;
+  gap: 5px;
+}
+
+.option {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 8vh;
+  width: 10vw;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+.option:hover {
+  background-color: black;
+  color: white;
+}
